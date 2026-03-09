@@ -95,3 +95,23 @@ The assistant will launch in your browser.
 
 ---
 
+![AI Assistant Demo](screenshots/demo.png)
+
+## Architecture
+
+User Question
+↓
+Embedding Model (Sentence Transformers)
+↓
+Vector Search (FAISS)
+↓
+Context Retrieval
+↓
+LLM (Ollama / Llama)
+↓
+Generated Response
+↓
+Streamlit Chat Interface
+
+
+Note - Sample documents are included for demonstration purposes only.
