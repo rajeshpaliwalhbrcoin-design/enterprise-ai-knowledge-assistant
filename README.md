@@ -95,7 +95,7 @@ The assistant will launch in your browser.
 
 ---
 
-![AI Assistant Demo](screenshots/demo.png)
+![AI Assistant Demo] - screenshots/demo.png
 
 ## Architecture
 
