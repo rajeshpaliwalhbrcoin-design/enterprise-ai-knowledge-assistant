@@ -1,23 +1,97 @@
 # Enterprise AI Knowledge Assistant
 
-This project demonstrates a Retrieval-Augmented Generation (RAG) system designed to help employees search internal documentation using natural language queries.
+An enterprise-grade **Retrieval-Augmented Generation (RAG)** assistant that enables employees to search internal documentation using natural language queries.
 
-## Features
+This system combines **vector search, semantic embeddings, and large language models (LLMs)** to deliver contextual and accurate answers from enterprise knowledge bases.
 
-• Semantic document search  
-• RAG architecture  
-• LangChain integration  
-• FAISS vector database  
-• Streamlit interface  
+---
+
+## Key Features
+
+* Semantic document search using vector embeddings
+* Retrieval-Augmented Generation (RAG) architecture
+* Fast similarity search using **FAISS vector database**
+* LLM-powered responses using **Ollama / LLM APIs**
+* Interactive **Streamlit-based chat interface**
+* Semantic caching for faster repeated queries
+* Document ingestion from PDFs
+
+---
 
 ## Tech Stack
 
-Python  
-LangChain  
-FAISS  
-Streamlit  
-LLMs  
+* **Python**
+* **Streamlit**
+* **LangChain**
+* **FAISS**
+* **Sentence Transformers**
+* **Ollama (LLM)**
+* **SQLite**
+
+---
 
 ## Use Case
 
-Helps enterprise IT teams quickly retrieve troubleshooting guides, policies, and internal documentation.
+This assistant is designed for **enterprise knowledge management**, allowing employees and IT teams to quickly retrieve:
+
+* Internal policies
+* Technical documentation
+* Troubleshooting guides
+* Knowledge base articles
+
+Instead of manually searching documents, users can simply **ask questions in natural language**.
+
+---
+
+## Project Structure
+
+```
+enterprise-ai-knowledge-assistant
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data
+│   └── (document files)
+│
+├── assets
+│   └── (logo / UI assets)
+│
+└── screenshots
+    └── (demo images)
+```
+
+---
+
+## Installation
+
+Install the required dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## Run the Application
+
+Start the Streamlit application:
+
+```
+streamlit run app.py
+```
+
+The assistant will launch in your browser.
+
+---
+
+## Future Improvements
+
+* Multi-document ingestion pipeline
+* Enterprise authentication integration
+* Conversation memory and analytics
+* Deployment using Docker / cloud infrastructure
+
+---
+
